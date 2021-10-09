@@ -29,7 +29,7 @@ MP4在形式上表现为 box 包含子 box，比如 `moov` 中，包含了所有
 
 对于一个典型的mp4 而言，其典型布局如下：
 
-![基本布局](D:\GitHub\media\container\MP4\assets\layout_brief.png)
+![基本布局](./container/MP4/assets/layout_brief.png)
 
 `ftyp` box 表示此文件的format 形式为MP4。`moov` 包含了全局信息，也可以认为是媒体数据的描述信息，用于说明 `mdat` 媒体数据。 `mdat` box 则是纯粹的 Audio/Video/Subtitle 数据信息。
 
@@ -37,7 +37,7 @@ MP4在形式上表现为 box 包含子 box，比如 `moov` 中，包含了所有
 
 下图是一个真实的MP4结构：
 
-![image-20211009101526513](D:\GitHub\media\container\MP4\assets\real_layout.png)
+![sample layout](./container/MP4/assets/real_layout.png)
 
 可以看出其是嵌套的层次结构。
 
@@ -45,7 +45,7 @@ MP4在形式上表现为 box 包含子 box，比如 `moov` 中，包含了所有
 
 `moov` 包含的主要信息由下图列出：
 
-![image-20211009102520923](D:\GitHub\media\container\MP4\assets\moov_info.png)
+![moov info](./container/MP4/assets/moov_info.png)
 
 **注1：**
 
