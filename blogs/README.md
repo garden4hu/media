@@ -1,0 +1,1 @@
+[VBR vs CBR](https://www.wowza.com/blog/cbr-vs-vbr)
